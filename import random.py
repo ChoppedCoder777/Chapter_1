@@ -9,6 +9,6 @@ def estimate_pi(num_points):
     return 4 * inside_circle / num_points
 
 # Change this variable to set how many points to use
-points = 123450000000000
+points = 10
 
 print(f"Estimated Pi with {points} points: {estimate_pi(points)}")
